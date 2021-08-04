@@ -1,36 +1,49 @@
 'use strict'
+function q1 (){
 
-var userPoint = 0;
-var userName = prompt('welcome, what is you name ?');
-alert('Nice to meet you ' + userName);
+  var userPoint = 0;
+  var userName = prompt('welcome, what is you name ?');
+  alert('Nice to meet you ' + userName);
 
-
-
-var fatherName = prompt('can you guess what is my fathers name(y/n)?');
-
-if (fatherName.toUpperCase() === 'Y') {
-  alert('you are a charm');
-  console.log('you are right');
-  userPoint++;
 }
-else {
-  alert('no one know anyway');
-  console.log('you are wrong');
-}
+q1();
 
-var favFood = prompt('can you guess if my favorite food is pizzan ?(y/n)');
+function q2 (){
 
-if (favFood.toUpperCase() === 'Y') {
-  alert('so that, I love you');
-  console.log('you are right');
-  userPoint++;
-}
-else {
-  alert('Is there anyone who dont like pizza');
-  console.log('you are wrong');
-}
+  var fatherName = prompt('can you guess what is my fathers name(y/n)?');
 
-var favGame = prompt('can you guess what is my favorite game?(y/n)');
+  if (fatherName.toUpperCase() === 'Y') {
+    alert('you are a charm');
+    console.log('you are right');
+    userPoint++;
+  }
+  else {
+    alert('no one know anyway');
+    console.log('you are wrong');
+  }
+}
+q2();
+
+function q3 () {
+
+    var favFood = prompt('can you guess if my favorite food is pizzan ?(y/n)');
+
+  if (favFood.toUpperCase() === 'Y') {
+    alert('so that, I love you');
+    console.log('you are right');
+    userPoint++;
+  }
+  else {
+    alert('Is there anyone who dont like pizza');
+    console.log('you are wrong');
+  }
+
+}
+q3();
+
+function q4 (){
+
+  var favGame = prompt('can you guess what is my favorite game?(y/n)');
 
 if (favGame.toUpperCase() === 'Y') {
   alert('Every one know that');
@@ -71,4 +84,6 @@ var myNumber = 0;
       userGuess = prompt();
     }
   }
+
 }
+q4();
